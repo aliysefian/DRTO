@@ -42,5 +42,5 @@ def check_and_open_appointments(consultation_id="3022", start_date="2024-10-28")
 
 # Start checking appointments with desired consultation_id and start_date
 # check_and_open_appointments(consultation_id="44867", start_date="2024-10-28")
-check_and_open_appointments(consultation_id="3022", start_date="2024-10-28")
+check_and_open_appointments(consultation_id="3022", start_date="2024-10-29")
 
