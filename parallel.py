@@ -49,4 +49,6 @@ def monitor_appointments(consultation_id="3022", start_date="2024-10-28"):
             time.sleep(1)
 
 # Start monitoring appointments
-monitor_appointments(consultation_id="44867", start_date="2024-10-29")
+# monitor_appointments(consultation_id="44867", start_date="2024-10-29")
+monitor_appointments(consultation_id="3022", start_date="2025-04-13")
+
