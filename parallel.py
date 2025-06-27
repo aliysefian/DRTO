@@ -29,7 +29,7 @@ def open_appointment_link(appointment_id):
     appointment_url = f"https://doctoreto.com/reserve/consultation?item_type=0&item_id={appointment_id}"
     webbrowser.open_new_tab(appointment_url)  # Opens each link in a new tab
     print(f"Opened appointment ID {appointment_id} at {appointment_url}")
-    time.sleep(0.5)  # Optional: Delay to avoid overwhelming the browser
+    time.sleep(1)  # Optional: Delay to avoid overwhelming the browser
 
 def monitor_appointments(consultation_id="3022", start_date="2024-10-28"):
     opened_ids = set()
@@ -49,6 +49,7 @@ def monitor_appointments(consultation_id="3022", start_date="2024-10-28"):
             time.sleep(1)
 
 # Start monitoring appointments
-# monitor_appointments(consultation_id="44867", start_date="2024-10-29")
-monitor_appointments(consultation_id="3022", start_date="2025-04-13")
+monitor_appointments(consultation_id="44867", start_date="2025-06-28")
+# monitor_appointments(consultation_id="3022", start_date="2025-04-13")
+# monitor_appointments(consultation_id="3022", start_date="2025-06-28")
 
